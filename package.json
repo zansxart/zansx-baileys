@@ -1,12 +1,11 @@
 {
-  "name": "zansxbaileys",
+  "name": "zansx-baileys",
   "version": "0.5.1",
   "description": "WhatsApp Web API Library",
   "keywords": [
-    "zansxart",
+    "zansx-baileys",
     "baileys",
-    "baileys/zansxart",
-    "zansxart/baileys",
+    "zansxart",
     "whatsapp",
     "whatsapp-api",
     "whatsapp-web",
@@ -14,9 +13,9 @@
     "automation",
     "multi-device"
   ],
-  "homepage": "https://www.npmjs.com/package/zansxart",
+  "homepage": "https://github.com/zansxart/zansx-baileys",
   "repository": {
-    "url": "https://www.npmjs.com/package/zansxart"
+    "url": "https://github.com/zansxart/zansx-baileys"
   },
   "license": "MIT",
   "author": "zansxart",

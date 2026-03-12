@@ -1,20 +1,20 @@
-# ⚡ zansxart-baileys
+# ⚡ zansx-baileys
 
 <div align="center">
-  <img src="https://socialify.git.ci/zansxart/zansxart-baileys/image?description=1&descriptionEditable=The%20most%20powerful%20and%20modified%20WhatsApp%20Web%20API%20library%20for%20Node.js&font=Inter&forks=1&issues=1&language=1&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark" alt="zansxart-baileys" width="640" height="320" />
+  <img src="https://socialify.git.ci/zansxart/zansx-baileys/image?description=1&descriptionEditable=The%20most%20powerful%20and%20modified%20WhatsApp%20Web%20API%20library%20for%20Node.js&font=Inter&forks=1&issues=1&language=1&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark" alt="zansx-baileys" width="640" height="320" />
 </div>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/zansxart"><img src="https://img.shields.io/npm/v/zansxart?style=for-the-badge&color=007bff" alt="version"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/zansxart/zansxart-baileys?style=for-the-badge&color=success" alt="license"></a>
-  <a href="https://www.npmjs.com/package/zansxart"><img src="https://img.shields.io/npm/dm/zansxart?style=for-the-badge&color=orange" alt="downloads"></a>
+  <a href="https://github.com/zansxart/zansx-baileys"><img src="https://img.shields.io/github/v/release/zansxart/zansx-baileys?style=for-the-badge&color=007bff" alt="version"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/zansxart/zansx-baileys?style=for-the-badge&color=success" alt="license"></a>
+  <a href="https://github.com/zansxart/zansx-baileys"><img src="https://img.shields.io/github/stars/zansxart/zansx-baileys?style=for-the-badge&color=orange" alt="stars"></a>
 </p>
 
 ---
 
-## 🚀 Apa itu zansxart-baileys?
+## 🚀 Apa itu zansx-baileys?
 
-**zansxart-baileys** adalah pustaka (library) WhatsApp Web API tingkat lanjut yang dibangun di atas fondasi Baileys. Proyek ini difokuskan pada stabilitas, kecepatan, dan perbaikan fitur-fitur yang sering bermasalah pada versi standar, seperti penanganan JID (@lid ke @pn) dan sinkronisasi grup yang lebih efisien.
+**zansx-baileys** adalah pustaka (library) WhatsApp Web API tingkat lanjut yang dibangun di atas fondasi Baileys. Proyek ini difokuskan pada stabilitas, kecepatan, dan perbaikan fitur-fitur yang sering bermasalah pada versi standar, seperti penanganan JID (@lid ke @pn) dan sinkronisasi grup yang lebih efisien.
 
 Didesain untuk pengembang yang membutuhkan kontrol penuh tanpa harus bergantung pada Selenium atau Puppeteer.
 
