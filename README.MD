@@ -31,29 +31,47 @@ Didesain untuk pengembang yang membutuhkan kontrol penuh tanpa harus bergantung 
 
 ---
 
-## 🛠️ Instalasi Cepat
+## 🛠️ Instalasi
 
-Gunakan pengelola paket favorit Anda:
+Pustaka ini dirancang untuk dipasang langsung dari GitHub sebagai API WhatsApp untuk bot Anda.
 
+### Cara 1: Menambahkan ke package.json (Disarankan)
+Buka file `package.json` milik bot Anda, lalu tambahkan baris berikut di dalam blok `"dependencies"`:
+
+```json
+"dependencies": {
+  "@zansxart/baileys": "github:zansxart/zansx-baileys"
+}
+```
+
+Setelah itu, buka terminal/CMD di direktori bot Anda dan jalankan:
 ```bash
-# NPM
-npm install zansxart
+npm install
+```
 
-# Yarn
-yarn add zansxart
+### Cara 2: Install Langsung dari Terminal
+Jika Anda ingin menginstalnya langsung melalui terminal tanpa membuka `package.json`, jalankan perintah ini di dalam direktori bot Anda:
+```bash
+npm install github:zansxart/zansx-baileys
+```
 
-# PNPM
-pnpm add zansxart
+### Cara 3: Clone Manual (Untuk Pengembangan Pustaka)
+Jika Anda ingin memodifikasi source code pustaka ini:
+```bash
+git clone https://github.com/zansxart/zansx-baileys.git
+cd zansx-baileys
+npm install
+npm run build:tsc
 ```
 
 ---
 
 ## 💻 Contoh Penggunaan (Quick Start)
 
-Buat file baru, misalnya `index.js`, dan tempelkan kode berikut:
+Setelah instalasi, Anda dapat menggunakan kode berikut untuk memulai:
 
 ```javascript
-const { default: makeWASocket, useMultiFileAuthState, DisconnectReason } = require('zansxart')
+const { default: makeWASocket, useMultiFileAuthState, DisconnectReason } = require('zansx-baileys')
 const { Boom } = require('@hapi/boom')
 
 async function startZansxart() {
@@ -78,7 +96,7 @@ async function startZansxart() {
             console.log('Koneksi terputus! Mencoba hubungkan kembali...', shouldReconnect)
             if (shouldReconnect) startZansxart()
         } else if (connection === 'open') {
-            console.log('✅ zansxart-baileys siap digunakan!')
+            console.log('✅ zansx-baileys siap digunakan!')
         }
     })
 
@@ -114,6 +132,6 @@ Pustaka ini adalah perangkat lunak sumber terbuka (open-source) di bawah lisensi
 Kami sangat menghargai kontribusi dari komunitas. Jika Anda menemukan bug atau ingin menambahkan fitur, silakan buat *Pull Request* atau *Issue*.
 
 - **Website:** [zansxart.me](https://zansxart.me)
-- **GitHub:** [zansxart/zansxart-baileys](https://github.com/zansxart/zansxart-baileys)
+- **GitHub:** [zansxart/zansx-baileys](https://github.com/zansxart/zansx-baileys)
 
 Copyright © 2025 [zansxart](https://github.com/zansxart)
