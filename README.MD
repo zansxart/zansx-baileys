@@ -116,6 +116,56 @@ async function startZansxart() {
 
 startZansxart()
 ```
+---
+
+## 🤖 Fitur: AI Logo
+
+Kirim pesan dengan ikon AI (✨ AI) yang muncul di WhatsApp, seperti pesan dari Meta AI. Fitur ini **otomatis aktif** untuk semua pesan di private chat.
+
+### Otomatis (Private Chat)
+Semua pesan yang dikirim ke private chat akan otomatis menampilkan logo AI tanpa perlu konfigurasi apapun.
+
+### Manual (Eksplisit)
+```javascript
+await sock.sendMessage(jid, { text: 'Halo! Saya asisten AI kamu.', ai: true })
+```
+
+> **Catatan:** Logo AI hanya didukung oleh WhatsApp di **private/personal chat**. Di group chat, tag tetap dikirim namun WhatsApp tidak menampilkan ikonnya.
+
+---
+
+## 📖 Fitur: Group Story
+
+Kirim story/status langsung ke group chat menggunakan `groupStatusMessage`. Mendukung gambar, video, dan teks.
+
+### Kirim Gambar sebagai Story
+```javascript
+await sock.sendMessage(groupJid, {
+    groupStatusMessage: {
+        image: { url: './gambar.jpg' },
+        caption: 'Story dari bot! 🔥'
+    }
+})
+```
+
+### Kirim Video sebagai Story
+```javascript
+await sock.sendMessage(groupJid, {
+    groupStatusMessage: {
+        video: { url: './video.mp4' },
+        caption: 'Video story! 🎬'
+    }
+})
+```
+
+### Kirim Teks sebagai Story
+```javascript
+await sock.sendMessage(groupJid, {
+    groupStatusMessage: {
+        text: 'Halo dari group story! ✨'
+    }
+})
+```
 
 ---
 
